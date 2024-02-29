@@ -211,6 +211,7 @@ public class App {
             String pass = args[0];
             App app = new App();
             app.isValidPassword(pass);
+        //when there is no argument passec
         } catch (Exception e) {
             System.out.println("No input has been given");
         }
